@@ -1,0 +1,119 @@
+/* Reset default margin and padding for consistency */
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Set default font and background colors */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1ebe3;
+}
+
+/* Set header styles */
+header {
+    background-color: #050505;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Set container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Set section styles */
+section {
+    padding: 40px 0;
+}
+
+/* Set heading styles */
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+/* Set blockquote styles */
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+/* Set team member styles */
+.team-member {
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+/* Set contact form styles */
+form {
+    margin-top: 20px;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    width: auto;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Set footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
